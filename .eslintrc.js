@@ -10,6 +10,11 @@ module.exports = {
     "Blob": true,
     "navigator": true
   },
+  "rules": {
+    "prefer-destructuring": 0,
+    "react/prop-types": 0,
+    "react/destructuring-assignment": 0,
+  },
   "settings": {
     "import/resolver": {
       "node": {
