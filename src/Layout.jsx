@@ -22,7 +22,7 @@ const styles = {
   },
 };
 
-const AppContainer = ({ children }) => (
+const Layout = ({ children }) => (
   <div style={styles.wrapper}>
     <div style={styles.container}>
       {children}
@@ -30,4 +30,4 @@ const AppContainer = ({ children }) => (
   </div>
 );
 
-export default AppContainer;
+export default Layout;
